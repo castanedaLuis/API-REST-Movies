@@ -5,5 +5,4 @@ const TOKEN ='eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkMGFkNjNlOTM1YmRkMThiOTg3ZTZkOGM3Z
 const API_KEY = 'd0ad63e935bdd18b987e6d8c7dfaf9a2';
 
 
-
-console.log(API_KEY);
+export { API_KEY, TOKEN };
