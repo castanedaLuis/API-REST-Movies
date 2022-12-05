@@ -357,3 +357,42 @@ footer {
 .inactive {
   display: none;
 }
+
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .movieDetail-container{
+    width: 100%;
+  }
+  .header-container--long{
+    
+      /* background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important; */
+      
+      height: 450px;
+      position: absolute;
+      top: 0;
+      width: 100%;
+  }
+  .img-movie{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    z-index: 1000;
+  }
+
+  .genericList-container .movie-container{
+    width: 480px !important;
+  }
+  
+}
+
+@media (max-width: 548px) {
+  .img-movie{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+  }
+}
